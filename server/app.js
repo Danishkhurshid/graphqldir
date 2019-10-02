@@ -20,7 +20,7 @@ const config = {
 
 //create a database connection
 //connecting to mlab database.
-mongoose.connect('mongodb+srv://danish:danish@cluster0-ivyau.mongodb.net/test?retryWrites=true&w=majority', config);
+mongoose.connect('', config);
 
 mongoose.connection.once('open',() => {
  console.log("now connected to database");
